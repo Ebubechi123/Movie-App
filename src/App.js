@@ -1,4 +1,5 @@
 import './App.css';
+import Button from './Components/Button/Button';
 
 function App() {
   return (
@@ -6,7 +7,10 @@ function App() {
       <div className="hero-container">
         <div className="nav">
           <p>Log In</p>
+
         </div>
+
+        <Button>Click Me</Button>
       </div>
     </div>
   );
